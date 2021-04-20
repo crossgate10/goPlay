@@ -1,0 +1,50 @@
+# system level
+#deployments/config/*
+
+# vim
+.*.swp
+.*.swo
+
+# vscode
+/.vscode
+*.code-workspace
+
+# docker
+/.docker
+
+#i GoLand
+.idea/
+
+# misc
+.DS_Store
+*.pyc
+*.lo
+*.o
+*.jpg
+*.png
+
+# vendor package folder should be ignored
+#/vendor
+
+# gcp
+terraform.tfplan
+terraform.tfstate
+./*.tfstate
+.terraform/
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# ignore build image
+/muse
+/megarich
